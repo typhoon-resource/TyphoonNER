@@ -1,0 +1,81 @@
+{
+  "version": "B014-anonymous-1",
+  "splits": {
+    "train": {
+      "sentences": 14929,
+      "entities": 81873,
+      "documents": 1873,
+      "labels": {
+        "AFFECTED_OBJECT": 5190,
+        "DAMAGE": 1989,
+        "DISASTER": 17044,
+        "LOCATION": 23493,
+        "ORGANIZATION": 7703,
+        "QUANTITY": 10304,
+        "RESPONSE": 3245,
+        "TIME": 10822,
+        "WARNING": 2083
+      },
+      "sources": {
+        "GOV": 6003,
+        "BULLETIN": 1126,
+        "NEWS": 7800
+      }
+    },
+    "dev": {
+      "sentences": 1827,
+      "entities": 10267,
+      "documents": 258,
+      "labels": {
+        "AFFECTED_OBJECT": 649,
+        "DAMAGE": 170,
+        "DISASTER": 2205,
+        "LOCATION": 3144,
+        "ORGANIZATION": 826,
+        "QUANTITY": 1222,
+        "RESPONSE": 391,
+        "TIME": 1395,
+        "WARNING": 265
+      },
+      "sources": {
+        "GOV": 652,
+        "NEWS": 1038,
+        "BULLETIN": 137
+      }
+    },
+    "test": {
+      "sentences": 1832,
+      "entities": 10151,
+      "documents": 229,
+      "labels": {
+        "AFFECTED_OBJECT": 690,
+        "DAMAGE": 172,
+        "DISASTER": 2047,
+        "LOCATION": 3134,
+        "ORGANIZATION": 866,
+        "QUANTITY": 1239,
+        "RESPONSE": 439,
+        "TIME": 1350,
+        "WARNING": 214
+      },
+      "sources": {
+        "GOV": 815,
+        "NEWS": 887,
+        "BULLETIN": 130
+      }
+    }
+  },
+  "total_sentences": 18588,
+  "total_entities": 102291,
+  "total_documents": 2360,
+  "invalid_entities": 0,
+  "duplicate_entities": 0,
+  "adjacent_overlap_pairs": 0,
+  "cross_split_groups": {
+    "doc_id": 0,
+    "rc3_split_group_id": 0,
+    "split_group_id": 0
+  },
+  "content_and_annotation_preservation": "exact per record; IDs re-encoded",
+  "near_duplicate_check": "not recomputed in this packaging pass"
+}
